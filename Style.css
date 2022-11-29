@@ -1,0 +1,83 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* Contenitore */
+.square {
+  background-color: rgba(0,0,0,0.5);
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 1.5%;
+  border-radius: 20px;
+}
+
+/* Contenitore logo e testo */
+header {
+  font-weight: bold;
+  font-size: 23px;
+  color: #22dc24;
+}
+
+.logo, .logotext {
+  display: block;
+  text-align: center;
+}
+
+.logo {
+  width: 20%;
+  margin: auto;
+  padding-top: 7%;
+}
+
+nav, section {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Contenitore pulsanti */
+.buttons {
+  background-color: #22dc24;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+button {
+  margin-right: 0.5%;
+  font-size: 9px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Sezioni degli scooter */
+.scooter{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+section > .scooteraddress, .scootercharge {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+section > .scootername {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+main:last-child{
+  padding-bottom: 7%;
+}
+
+/* Barra di carica della batteria */
+hr {
+  border-radius: 5px;
+  padding: 0.3%;
+  margin-left: 0%;
+  margin-block-start: auto;
+  margin-block-end: auto;
+}
